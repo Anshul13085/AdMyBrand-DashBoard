@@ -1,4 +1,4 @@
 Download all the libraries and frameworks given in the read me.
 How to run the project,
 open the "admybrand" directory in the terminal and type "npm run dev".
-then go to "localhost:3000/dashboard"http://localhost:3000/dashboard" on any browser as I built a different page.tsx in the dashboard folder.
+then follow the link
