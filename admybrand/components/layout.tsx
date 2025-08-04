@@ -1,5 +1,5 @@
 
-import { Sidebar } from "./Sidebar";
+import { Sidebar } from "@/components/Sidebar";
 import Topbar from "@/components/Topbar";
 import { ThemeProvider } from "next-themes";
 export function Providers({ children }: { children: React.ReactNode }) {
