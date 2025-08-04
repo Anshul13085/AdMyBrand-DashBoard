@@ -1,12 +1,12 @@
-import { useTheme } from "next-themes";
-import { Sun, Moon } from "lucide-react";
+// components/Topbar.tsx
 
-export function ThemeToggle() {
-  const { theme, setTheme } = useTheme();
+import { ThemeToggle } from "./ThemeToggle";
 
+export default function Topbar() {
   return (
-    <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
-      {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
-    </button>
+    <header className="w-full h-16 px-6 bg-white dark:bg-gray-900 shadow flex items-center justify-between">
+      <h1 className="text-xl font-semibold text-gray-900 dark:text-white">ADmyBRAND Dashboard</h1>
+      <ThemeToggle />
+    </header>
   );
 }
